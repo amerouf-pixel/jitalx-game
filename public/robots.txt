@@ -1,0 +1,3 @@
+﻿User-agent: *
+Allow: /
+Sitemap: https://jitalx.vercel.app/sitemap.xml
