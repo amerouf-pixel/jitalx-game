@@ -559,7 +559,7 @@ export function registerPaymentRoutes(app: Express): void {
         webhookToken: (process.env.GUMROAD_WEBHOOK_TOKEN || '').trim(),
         sellerId: (process.env.GUMROAD_SELLER_ID || '').trim(),
         productId: (process.env.GUMROAD_PRODUCT_ID || '').trim(),
-        productPermalink: (process.env.GUMROAD_PRODUCT_PERMALINK || 'jitalx-full-access').trim(),
+        productPermalink: (process.env.GUMROAD_PRODUCT_PERMALINK || 'JITALX').trim(),
         allowTest: process.env.GUMROAD_ALLOW_TEST === 'true',
       },
     });
